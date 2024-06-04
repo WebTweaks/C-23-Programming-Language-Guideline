@@ -47,7 +47,7 @@ int main(){
     std::cout << "Izaiah" << " " << "Robinson" << " 29" << std::endl;
     
     std::cout << std::endl;
-    std::cout << "Formatted table : " << std::endl;
+    std::cout << "Formatted table(setw) : " << std::endl;
     
     std::cout << std::setw(10) <<  "Lastname"  << std::setw(10) << "Firstname" << std::setw(5) << "Age" << std::endl;
     std::cout << std::setw(10) << "Daniel"  << std::setw(10) << "Gray" << std::setw(5) << "25" << std::endl;
@@ -58,7 +58,7 @@ int main(){
     std::cout << std::setw(10) << "Izaiah" << std::setw(10) << "Robinson" << std::setw(5) << "29" << std::endl;
     
     std::cout << std::endl;
-    std::cout << "Formatted table with variables: " << std::endl;
+    std::cout << "Formatted table with variables(setw): " << std::endl;
     
     int col_width{14};
     
