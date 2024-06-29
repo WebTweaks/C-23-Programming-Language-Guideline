@@ -2,15 +2,15 @@
 
 int main()
 {
-    // *Declare an array of ints
+    // Declare an array of ints
     int scores[10]; // Junk data
 
-    // *Read data
+    // Read data
     std::cout << "\nscores [0] : " << scores[0] << std::endl;
     std::cout << "scores [1] : " << scores[1] << std::endl;
     std::cout << "=======================================" << std::endl;
 
-    // *Read with a loop
+    // Read with a loop
     for (size_t i{0}; i < 10; ++i)
     {
         std::cout << "scores [" << i << "] : " << scores[i] << std::endl;
@@ -21,27 +21,27 @@ int main()
     scores[1] = 21;
     scores[2] = 22;
 
-    // *Print the data out
+    // Print the data out
     for (size_t i{0}; i < 10; ++i)
     {
         std::cout << "scores [" << i << "] : " << scores[i] << std::endl;
     }
     std::cout << "=======================================" << std::endl;
 
-    // *Write data in a loop
+    // Write data in a loop
     for (size_t i{0}; i < 10; ++i)
     {
         scores[i] = i * 10;
     }
 
-    // *Print the data out
+    // Print the data out
     for (size_t i{0}; i < 10; ++i)
     {
         std::cout << "scores [" << i << "] : " << scores[i] << std::endl;
     }
     std::cout << "=======================================" << std::endl;
 
-    // *Declare and initialize at the same time
+    // Declare and initialize at the same time
     double salaries[5]{12.7, 7.5, 13.2, 8.1, 9.3};
 
     for (size_t i{0}; i < 5; ++i)
